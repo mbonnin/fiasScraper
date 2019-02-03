@@ -1,0 +1,32 @@
+{
+    "fiasScraper": {
+        "lambda": {},
+        "apigateway": {
+            "path": "/fias",
+            "method": {
+                "value": "POST",
+                "items": [
+                    "GET",
+                    "POST",
+                    "PUT",
+                    "DELETE",
+                    "HEAD",
+                    "OPTIONS",
+                    "PATCH"
+                ]
+            },
+            "body": {
+                "key1": "Hello",
+                "key2": "There",
+                "key3": "World"
+            }
+        }
+    },
+    "fiaScraperAPIGW": {
+        "lambda": {
+            "key1": "Hello",
+            "key2": "There",
+            "key3": "World"
+        }
+    }
+}

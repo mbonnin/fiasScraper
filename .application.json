@@ -1,0 +1,13 @@
+{
+    "ApplicationName": "fiasScraper",
+    "DeploymentMethod": "cloudformation",
+    "Functions": {
+        "fiasScraper": {
+            "PhysicalId": {
+                "us-east-2": "cloud9-fiasScraper-fiasScraper-YS0UO89JCF2J"
+            }
+        }
+    },
+    "RestApiId": "g1lmtpe9r1",
+    "StackName": "cloud9-fiasScraper"
+}
