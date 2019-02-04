@@ -28,5 +28,15 @@
             "key2": "There",
             "key3": "World"
         }
+    },
+    "": {
+        "apigateway": {
+            "path": "",
+            "method": {
+                "value": "",
+                "items": []
+            },
+            "body": {}
+        }
     }
 }

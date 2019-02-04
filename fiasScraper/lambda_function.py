@@ -2,6 +2,7 @@ from __future__ import print_function
 
 import json
 import urllib2
+import re
 from bs4 import BeautifulSoup
 
 print('Loading function')
@@ -62,5 +63,8 @@ def get_item_value(soup, name, withSpan = True):
     else:
         # If the content does not exist, set the value to 0
         itemVal = "0"
+    
+    # Strip off the unit characters
+    returnVal = re.sub(r'[\D]', '', itemVal)
 
-    return itemVal
+    return returnVal
